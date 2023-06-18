@@ -1,6 +1,6 @@
 # Overview
 
-This purpose of this project is to create form website from BPJS using html and CSS. 
+The purpose of this project is to create form website from BPJS using html and CSS. 
 
 Output Program:
 - full output program
