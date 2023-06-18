@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form BPJS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="Untitled.png">
+    <p style="float: right; padding-right: 95px;">Formulir Peser 1</p>
+    <div class="table-top">
+      <table style="width: 95%; margin-top: 40px; border: 1px;">
+        <tr>
+          <td colspan="6" style="background-color: lightgray;">
+            <p style="text-align: center; font-size: 20px;"><b>FORMULIR PENDAFTARAN BADAN USAHA / BADAN HUKUM LAINNYA PEKERJA PENERIMA UPAH (PPU)</b></p>
+          </td>
+        </tr>
+        <th style="margin-bottom: 10px;"></th>
+        <tr>
+          <td style="padding-left: 10px; width: 17%; margin-top: 50px;"><input type="text" maxlength="1" class="number-input" style="width: 50px; height: 50px;"><b> Registrasi Baru</b></td>
+          <td style="width: 20%; width: 27%;"><input type="text" maxlength="1" class="number-input" style="width: 150px; height: 50px;"><b> Perubahan Data</b></td>
+          <td>Diverifikasi oleh: <br>Tgl</br></td>
+          <td>Direkam oleh: <br>Tgl</br></td>
+          <td>Satuju Kabid PK: <br>Tgl</br></td>
+        </tr>
+      </table>
+      <br>
+      <hr style="width: 95%; margin-left: 0px; padding-left: 0px;">
+      <table style="margin-top: 10px; width: 95%;">
+        <td style="width: 34%;">
+          <form action="contact.php" method="POST">
+            <p>
+              <label>Kode Badan Usaha/Badan Hukum Lainnya
+                <br><p style="font-size: 14px;">(Diisi oleh petugas BPJS Kesehatan)</p>
+              </label>
+            </p>
+        </td>
+        <td style="width: 30%">: <input type="text" maxlength="1" class="number-input" style="width: 300px; height: 70px;"></td>
+        <td style="width: 13%;">
+          <p>
+            <label>No. <i>Virtual Account</i></label>
+          </p>
+        </td>
+        <td style="width: 30%"><input type="text" maxlength="1" class="number-input" style="width: 300px; height: 70px;"></td>
+      </table>
+
+      <hr style="width: 95%; margin-left: 0px; padding-left: 0px;">
+      <table style="margin-top: 10px; width: 100%;">
+        <tr>
+          <td colspan="6" style="background-color: lightgray;">
+            <p><b>IDENTITAS BADAN USAHA / BADAN HUKUM LAINNYA </b></p>
+          </td>
+          <td style="width:1">  Verfikasi</td>
+        </tr>
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Nama Badan Usaha/Badan Hukum Lainnya</label>
+              </p>
+          </td>
+          <td colspan="5">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": .........................................................................................................................................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Alamat Badan Usaha/Badan Hukum Lainnya</label>
+              </p>
+          </td>
+          <td colspan="5">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": JL......................................................................................................................................................................................................"/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <td  rowspan="3"></td>
+        <tr>
+          <td style="width: 13%;">
+            <p>
+              <label>: Kelurahan</label>
+            </p>
+          </td>
+          <td style="width: 15%;">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=":  .................................."/>
+          </td>
+          <td>
+            <p>
+              <label>Kecamatan</label>
+            </p>
+          </td>
+          <td colspan="3">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=":  ....................................................................."/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>
+              <label>: Kab/Kota</label>
+            </p>
+          </td>
+          <td>
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=":  .................................."/>
+          </td>
+          <td>
+            <p>
+              <label>Kode Pos</label>
+            </p>
+          </td>
+          <td colspan="3">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Telepon</label>
+              </p>
+          </td>
+          <td colspan="2">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td>
+            <p>
+              <label>Faksimili</label>
+            </p>
+          </td>
+          <td colspan="3">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label><i>E-mail</i></label>
+              </p>
+          </td>
+          <td colspan="5">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": .........................................................................................................................................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Status Badan Usaha/Badan Hukum Lainnya<br><i>(Pilih salah satu)</i></label>
+              </p>
+          </td>
+          <td><label><input type="checkbox" />Pusat</label></td>
+          <td><label><input type="checkbox" />Cabang</label></td>
+          <td><label><input type="checkbox" />Anak Perusahaan</label></td>
+          <td><label><input type="checkbox" />Anak Cabang Peusahaan</label></td>
+          <td><label><input type="checkbox" />Lainnya**</label></td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Bentuk Badan Hukum</label>
+              </p>
+          </td>
+          <td colspan="5">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": .........................................................................................................................................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Nomor Induk Berusaha (NIB)</label>
+              </p>
+          </td>
+          <td colspan="5">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Nomor Izin Usaha/ Izin Lainnya (Akta,MOU, dll)</label>
+              </p>
+          </td>
+          <td colspan="5">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Jenis Usaha Utama</label>
+              </p>
+          </td>
+          <td colspan="5">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": .........................................................................................................................................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>NPWP Badan/Perorangan</label>
+              </p>
+          </td>
+          <td colspan="5">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Nama Pimpinan Badan Usaha/Badan Hukum Lainnya</label>
+              </p>
+          </td>
+          <td colspan="5">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": .........................................................................................................................................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Status Kepemilikan Badan Usaha/Badan Hukum Lainnya</label>
+              </p>
+          </td>
+          <td><label><input type="checkbox" />Swasta Nasional</label></td>
+          <td><label><input type="checkbox" />BUMN</label></td>
+          <td><label><input type="checkbox" />Koperasi</label></td>
+          <td><label><input type="checkbox" /><i>Joint Venture</i></label></td>
+          <td><label><input type="checkbox" />Lainnya**</label></td>
+          <td rowspan="1"><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+        <tr>
+          <td><label><input type="checkbox" />Swasta Asing</label></td>
+          <td><label><input type="checkbox" />BUMD</label></td>
+          <td><label><input type="checkbox" />Yayasan</label></td>
+          <td><label><input type="checkbox" />Cabang Anak Lainnya</label></td>
+          <td><label><input type="checkbox" />YKK**</label></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Jenis Usaha</label>
+              </p>
+          </td>
+          <td colspan="5">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": .........................................................................................................................................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Kode Klasifikasi Baku Lapangan Usaha Indonesia</label>
+              </p>
+          </td>
+          <td colspan="5">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Nama Bank</label>
+              </p>
+          </td>
+          <td><label><input type="checkbox" />Bank Mandiri</label></td>
+          <td><label><input type="checkbox" />BRI</label></td>
+          <td><label><input type="checkbox" />BNI</label></td>
+          <td colspan="2"><label><input type="checkbox" />Lainnya***)...........</label></td></td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+      </table>
+
+      <table style="margin-top: 10px; width: 100%;">
+        <tr>
+          <td colspan="5" style="background-color: lightgray; width:100%">
+            <p style="float: left;"><b>IDENTITAS CONTACT PERSON BADAN USAHA / BADAN HUKUM
+                LAINNYA</b></p>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="width: 33.2%;">
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Nama Lengkap</label>
+              </p>
+          </td>
+          <td colspan="4">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": .........................................................................................................................................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Jabatan</label>
+              </p>
+          </td>
+          <td colspan="4">
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": .........................................................................................................................................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Telepon dan <i>Extention</i></label>
+              </p>
+          </td>
+          <td colspan="2" style="width: 30%;">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td style="width: 5%;"><i>Ext:</i></td>
+          <td style="width: 30%;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Faksimili</label>
+              </p>
+          </td>
+          <td colspan="4" style="width: 30%;">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> -
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label><i>Handphone</i></label>
+              </p>
+          </td>
+          <td colspan="2" style="width: 30%;">:
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+          </td>
+          <td><i>Email:</i></td>
+          <td>
+            <input type="text" name="input" style="border: 0px; width: 100%;" value=": ..................................................................................."/>
+          </td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+      </table>
+
+      <table style="margin-top: 10px; width: 100%;">
+        <tr>
+          <td colspan="4" style="background-color: lightgray; width: 100%;">
+            <p style="float: left;"><b>KEIKUTSERTAAN PROGRAM JAMINAN KESEHATAN NASIONAL
+                (JKN)</b></p>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="width: 33.5%;">
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Menjadi Peserta Terhitung Mulai Tanggal </label>
+              </p>
+          </td>
+          <td>: 
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            Tanggal
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;"> 
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            Bulan
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            <input type="text" maxlength="1" class="postcode-input" style="width: 20px;">
+            Tahun
+          </td>
+          <td colspan="2">*Diisi Oleh Petugas BPJS Kesehatan</td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Jumlah Tenaga Kerja</label>
+              </p>
+          </td>
+          <td colspan="3">: <input type="text" maxlength="1" class="number-input" style="width: 150px; height: 35px;"></td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label>Jumlah Keluarga</label>
+              </p>
+          </td>
+          <td colspan="3">: <input type="text" maxlength="1" class="number-input" style="width: 150px; height: 35px;"></td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        <tr>
+          <td>
+            <form action="contact.php" method="POST">
+              <p>
+                <label><i>Total Tenaga Kerja dan Keluarga</i></label>
+              </p>
+          </td>
+          <td colspan="3">: <input type="text" maxlength="1" class="number-input" style="width: 150px; height: 35px;"></td>
+          <td><input type="text" maxlength="1" class="number-input" style="width: 50px"></td>
+        </tr>
+      </table>
+      <hr>
+      <h2 style="text-align: center;">SURAT PERNYATAAN</h2>
+      <p><b>Saya menyatakan bahwa :</b></p>
+      <ol style="margin-top: 2px;">
+        <li style="margin-top: 2px;">Informasi ini dibuat dengan sebenarnya, apabila informasi ini tidak benar maka saya bersedia dikenakan
+          sanksi sesuai dengan peraturan perundang-undangan yang berlaku.</li>
+        <li>Bahwa informasi terkait data pegawai dan anggota keluarga dan jumlah gaji yang disampaikan adalah sesuai
+          dengan kondisi sebenarnya sesuai dengan peraturan perundang-undangan yang berlaku.</li>
+        <li>Menerima amanah dari Pekerja untuk memotong, memungut, dan menyetorkan iuran dari besaran upah/gaji dan
+          tunjangan tetap Pekerja setiap bulan sesuai Undang-Undang No 40 Tahun 2004 Pasal 17 Ayat 1 & 2.
+        <li>Menyetujui bahwa iuran yang dibayarkan sebagai hibah dan tidak dikembalikan sekalipun belum mendapatkan
+          manfaat pelayanan kesehatan dan iuran tersebut sudah
+          diikhlaskan untuk menolong peserta lain yang membutuhkan sebagai bentuk gotong royong.</li>
+        <li>Memberikan kuasa kepada BPJS Kesehatan untuk mengelola dana amanat beserta hasil pengembangannya agar
+          digunakan sebesar-besarnya untuk pembayaran manfaat
+          kepada Peserta sesuai Peraturan Perundang-Undangan.</li>
+        <li>Memberikan kuasa kepada BPJS Kesehatan untuk menggunakan informasi medis peserta baik dari rekam medis
+          maupun dokumen pendukung lainnya jika diperlukan.</li>
+        <li>Atas kuasa pengelolaan dana amanat sebagaimana tercantum pada angka 4, BPJS Kesehatan berhak untuk
+          mendapatkan dana operasional penyelenggaraan program Jaminan Kesehatan Nasional dari sebagian iuran peserta
+          yang besarnya sesuai dengan Peraturan Perundang-Undang</li>
+        </ol>
+        <table style="width: 100%;">
+          <tr>
+            <td style="width: 70%; font-size: 18px;">BPJS Kesehatan menerima kuasa pengelolaan jaminan kesehatan peserta <br>BPJS Kesehatan</td>
+            <td style="width: 100%; font-size: 15px; margin-top: 3px; margin-bottom: 3px;"><input type="text" name="input" style="border: 0px; width: 100%;" value=".............. , ........................... 20 ...............">
+              <br style="margin-top: 3px; margin-bottom: 3px;" >Pimpinan/HRD/Pihak yang diberi kuasa</td>
+            </tr>
+          <tr>
+            <td></td>
+            <td><div class="box1"><p style="text-align: center;">Materai <br>Rp.6000,-</p></td>
+          </tr>
+          <tr>
+            <td>____________________________</td>
+            <td>____________________________________ *)</td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+        <p>
+          <u>Catatan</u>:
+          <br>*diisi nama lengkap, tanda tangan dan stempel Perusahaan
+          <br>** Yayasan Kesejahteraan Karyawan
+          <br>*** Sebutkan
+        </p>
+    </div>
+</body>
+</html>

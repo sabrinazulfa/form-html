@@ -1,0 +1,52 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    margin: 25px;
+    padding: 45px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .container .table-top {
+    margin: 25px;
+    padding: 15px;
+    padding-left: 0px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  table,
+  tr,
+  td {
+    border: 0px solid black;
+    font-family: Calibri, sans-serif;
+  }
+  
+  img {
+    float: left;
+    width: 25%;
+    max-width: 25%;
+    height: 10%;
+    display: block;
+    margin: 0;
+    padding-left: 25px;
+  }
+
+  .container .postcode-inpur {
+    display: inline-block;
+    width: 25px;
+    margin-right: 0px;
+  }
+
+  .container .box1 {
+      width:150px;
+      height:150px;
+      background: white;
+      border:solid 1px black;
+  }
