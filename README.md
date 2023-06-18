@@ -4,4 +4,4 @@ This purpose of this project is to create form website from BPJS using html and 
 
 Output Program:
 - full output program
-![alt-text](Screenshot-Form-BPJS.PNG)
+![alt-text](Screenshot-Form-BPJS.png)
